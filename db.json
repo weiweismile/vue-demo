@@ -1,0 +1,152 @@
+{
+  "getNewsList": [
+    {
+      "id": 1,
+      "title": "新闻条目1新闻条目1新闻条目1新闻条目1",
+      "url": "http://starcraft.com"
+    },
+    {
+      "id": 2,
+      "title": "新闻条目2新闻条目2新闻条目2新闻条目2",
+      "url": "http://warcraft.com"
+    },
+    {
+      "id": 3,
+      "title": "新闻条3新闻条3新闻条3",
+      "url": "http://overwatch.com"
+    },
+    {
+      "id": 4,
+      "title": "新闻条4广告发布",
+      "url": "http://hearstone.com"
+    }
+  ],
+  "login": {
+    "username": "yudongdong",
+    "userId": 123123
+  },
+  "getPrice": {
+    "amount": 678
+  },
+  "createOrder": {
+    "orderId": "6djk979"
+  },
+  "getOrderList": {
+    "list": [
+      {
+        "orderId": "ddj123",
+        "product": "数据统计",
+        "version": "高级版",
+        "period": "1年",
+        "buyNum": 2,
+        "date": "2016-10-10",
+        "amount": "500元"
+      },
+      {
+        "orderId": "yuj583",
+        "product": "流量分析",
+        "version": "户外版",
+        "period": "3个月",
+        "buyNum": 1,
+        "date": "2016-5-2",
+        "amount": "2200元"
+      },
+      {
+        "orderId": "pmd201",
+        "product": "广告发布",
+        "version": "商铺版",
+        "period": "3年",
+        "buyNum": 12,
+        "date": "2016-8-3",
+        "amount": "7890元"
+      }
+    ]
+  },
+    "getProductList":{
+          "domestic":{
+             "last":false,
+            "title":"国内线",
+            "list":[
+                 {
+                  "name":"峨眉山",
+                  "url":"https://sanya.dujia.qunar.com/?tf=pklist_origin",
+                  "hot":true
+                 },{
+                  "name":"海口",
+                  "url":"https://haikou.dujia.qunar.com/"
+                 },{
+                  "name":"香格里拉",
+                  "url":"https://xgll.dujia.qunar.com/?tf=pklist_origin"
+                 },{
+                  "name":"九寨沟",
+                  "url":"https://jiuzhaigou.dujia.qunar.com/?tf=pklist_origin"
+                 }
+            ]
+          },
+          "overseas":{
+              "last":true,
+            "title":"国外线",
+            "list":[
+                 {
+                  "name":"泰国",
+                  "url":"https://taiguo.dujia.qunar.com/?tf=pklist_origin"
+                 },{
+                  "name":"日本",
+                  "url":"https://riben.dujia.qunar.com/?tf=pklist_origin",
+                  "hot":true
+                 },{
+                  "name":"台北",
+                  "url":"https://taibei.dujia.qunar.com/?tf=pklist_origin"
+                 },{
+                  "name":"夏威夷",
+                  "url":"https://xiaweiyi.dujia.qunar.com/?tf=pklist_origin"
+                 }
+            ]
+          },
+        "newsList":[
+                   {
+                    "name":"免费游日本",
+                    "url":"https://www.amazon.cn/b?node=1886954071&tag=qunar0b-23"
+                   },{
+                    "name":"自驾看世界",
+                    "url":"http://zt.dujia.qunar.com/bp/zt.php?id=578&in_track=xbtj04"
+                   },{
+                    "name":"1000+酒店试睡",
+                    "url":"http://tuan.qunar.com/ext/sact/RjABVv"
+                   },{
+                    "name":"1000+酒店试睡1000+酒店试睡1000+酒店试睡1000+酒店试睡1000+酒店试睡",
+                    "url":"http://tuan.qunar.com/ext/sact/RjABVv"
+                   }
+        ],
+        "boardList": [
+              {
+                "title": "开放产品",
+                "description": "开放产品是一款开放产品",
+                "id": "car",
+                "toKey": "analysis",
+                "saleout": false
+              },
+              {
+                "title": "品牌营销",
+                "description": "品牌营销帮助你的产品更好地找到定位",
+                "id": "earth",
+                "toKey": "count",
+                "saleout": false
+              },
+              {
+                "title": "使命必达",
+                "description": "使命必达快速迭代永远保持最前端的速度",
+                "id": "loud",
+                "toKey": "forecast",
+                "saleout": true
+              },
+              {
+                "title": "勇攀高峰",
+                "description": "帮你勇闯高峰，到达事业的顶峰",
+                "id": "hill",
+                "toKey": "publish",
+                "saleout": false
+              }
+            ]
+      }
+}
